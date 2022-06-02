@@ -1,0 +1,97 @@
+li{
+	list-style: none;
+}
+ul{
+	padding: 0;
+}
+.temsilci{width: 100%; float: left;}
+.temsilci ul li{width: 100%; float: left;}
+.temsilci ul li div.baslik{width: 100%; height: 45px; background-color: #245834; margin-bottom: 10px;}
+.temsilci ul li div.baslik a.baslik{float: left; line-height: 45px; color: white; padding-left: 1%; width: 99%; position: relative; z-index: 999;}
+.temsilci ul li div.baslik div.updown{float: right; background-color: #dbe7c8; width: 45px; height: 45px; overflow: hidden; margin-top: -45px;}
+.temsilci ul li div.baslik div.updown img{width: 100%;}
+
+.temsilci ul li div.altbaslik{width: 99%; float: right;}
+.temsilci ul li div.altbaslik div.iladi{width: 100%; height: 35px; background-color: #dbe7c8; float: left; margin-bottom: 10px;}
+.temsilci ul li div.altbaslik div.iladi a.altbaslik{float: left; line-height: 35px; color: black; width: 99%; padding-left: 1%; position: relative; z-index: 999;}
+.temsilci ul li div.altbaslik div.iladi div.updown{float: right; background-color: #979f8a; width: 35px; height: 35px; overflow: hidden; margin-top: -35px}
+.temsilci ul li div.altbaslik div.iladi div.updown img{width: 100%;}
+
+.temsilci ul li div.maddelist{margin: 10px 0 0 0; float: right; width: 99%; }
+.temsilci ul li div.madde{width: 100%; height: 35px; background-color: #979f8a; float: right; margin-bottom: 10px;}
+.temsilci ul li div.madde div{float: left; margin: 0 10px;}
+.temsilci ul li div.madde div p:first-child{width: 20px; height: 20px; float: left; margin-top: 7.5px}
+.temsilci ul li div.madde div:nth-child(1) p:first-child{background-image: url(http://ormuh.org.tr/images/profilicon.png);}
+.temsilci ul li div.madde div:nth-child(2) p:first-child{background-image: url(http://ormuh.org.tr/images/unvanicon.png);}
+.temsilci ul li div.madde div:nth-child(3) p:first-child{background-image: url(http://ormuh.org.tr/images/unvanicon.png);}
+.temsilci ul li div.madde div:nth-child(4) p:first-child{background-image: url(http://ormuh.org.tr/images/telicon.png);}
+.temsilci ul li div.madde div p:last-child, .temsilci ul li div.madde div a{float: left; line-height: 35px; color: white; padding-left: 5px;}
+
+.temsilci ul li div.maddelist{display: none;}
+.temsilci ul li div.altbaslik{display: none;}
+
+/*.temsilci ul li:first-child div.altbaslik{display: block;}
+.temsilci ul li:first-child div.baslik div.updown a img{margin-top: -45px;}*/
+
+.subeler{width: 1140px; margin:0 auto;}
+.subeler div.baskan{width: 180px; margin: 0 18px; float: left;}
+.subeler div.adres{width: 450px; margin: 65px 18px 0 18px; float: left;}
+.subeler div.sehirler{width: 400px; margin: 60px 18px 0 18px; float: left;}
+
+.subeler div.baskan div.bg{width: 160px; height: 274px; float: left; background: url(http://ormuh.org.tr/images/baskanBg.png);}
+.subeler div.baskan div.bg img{width: 115px; float: left; margin: 82px 0 0 16px;}
+.subeler div.baskan p{font-weight: bold; color: #245834; overflow-wrap: normal;}
+
+.subeler div.adres div{width: 100%; float: left; margin-bottom: 3px; color: #245834}
+.subeler div.adres div strong{width: 150px; float: left; font-weight: normal;}
+.subeler div.adres div b{width: 5px; float: left;}
+.subeler div.adres div p{width: 290px; float: left; margin:0 0 0 5px;}
+
+.subeler div.sehirler div.kapsadigi{width: 150px; float: left; color: #245834}
+.subeler div.sehirler img{width: 250px; float: left;}
+
+.subeler div.uyeler{width: 1140px; float: left;}
+.subeler div.uyeler ul li{width: 115px; float: left; margin: 10px 15px;}
+.subeler div.uyeler ul li img{padding: 15px; border:1px solid black; float: left;}
+.subeler div.uyeler ul li div{width: 100%; height:150px; background-color: #387e48; float: left; color: white; text-align: center;}
+.subeler div.uyeler ul li div.bos{height: 310px; background-color: #fff; }
+.subeler div.uyeler ul li div p{overflow-wrap:normal; margin: 0; padding-top: 10px;}
+
+.eskibaskan tbody tr td{float: left; width: 30%; margin: 0 1.5%;}
+
+.isilanlari{width: 100%; float: left;}
+.isilanlari .parca{width: 30%; float: left; margin: 15px 1.5% 0 1.5%; background: url(http://ormuh.org.tr/images/ilanBg.png) no-repeat; background-size: 100% 100%; }
+.isilanlari .parca div{width: 100%; float: left; color: #003e2f; text-align: center;}
+.isilanlari .parca div h3{font-size: 16px; padding-top: 10px;}
+.isilanlari .parca div p{font-size: 14px; padding: 5px 10px;}
+.isilanlari .parca div strong{font-size: 13px;}
+
+.resimortala{width: 250px;}
+
+
+
+@media screen and (max-width: 1150px){
+
+	.temsilci ul li div.madde div{width: 99%;  margin: 0 0 0 1%;}
+	.temsilci ul li div.madde{height: auto;}
+
+	.subeler{width: 100%;}
+	.subeler div.baskan{float: none; margin: 0 auto;}
+	.subeler div.adres div{margin-bottom: 15px;}
+	.subeler div.adres div strong{width: 90%;}
+	.subeler div.adres div p{width: 90%; margin:0;}
+
+	.subeler div.adres{width: 95%; margin: 30px 2.5%;}
+
+	.subeler div.sehirler{width: 95%; margin: 30px 2.5%;}
+	.subeler div.sehirler div.kapsadigi{width: 100%; text-align: center;}
+	.subeler div.sehirler img{width: 100%;}
+
+	.subeler div.uyeler{width: 100%;}
+	.subeler div.uyeler ul li{width: 45%; margin: 10px 2.5%;}
+}
+
+@media screen and (max-width: 780px){
+	.isilanlari .parca{width: 95%; margin: 20px 2.5%;}
+	.resimortala{width: 100%;}
+}

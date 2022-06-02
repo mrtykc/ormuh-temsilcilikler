@@ -1,0 +1,6 @@
+#sorucevap{width: 100%; float: left;}
+#sorucevap .soruyil{width: 99%; height: 45px; padding-left: 1%; float: left; margin: 10px 0; background: #056741; color: #fff; line-height: 45px; font-size: 18px; font-weight: bold;}
+#sorucevap .cevap{width: 97%; float: left; margin: 0 1.5%;}
+#sorucevap .cevap div{width: 100%; float: left; margin: 5px 0;}
+#sorucevap .cevap div a{color: #000; font-size: 16px;}
+#sorucevap .cevap div a:hover{color: #269c2a;}
